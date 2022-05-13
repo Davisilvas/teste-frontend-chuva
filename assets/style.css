@@ -7,11 +7,17 @@
     text-decoration: none;
 }
 
+body{
+    /* background-color:#E5E5E5; */
+    position: relative;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 /* ---------HEADER--------- */
@@ -21,6 +27,7 @@ header{
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-evenly;
+    width: 100%;
 
     background-color:#FDF1EB;
     padding: 4px;
@@ -89,6 +96,9 @@ header{
 .slaca{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
 
     width: 220px;
     height: 100vh;
@@ -117,4 +127,245 @@ header{
     line-height: 18.75px;
 
     list-style: none;
+
+    height: 33px;
+    margin-bottom: 1px;
+}
+
+.slaca a{
+    color: #725C5C;
+
+    /* transition-property: all;
+    transition-duration: 250ms;
+    transition-delay: 50ms;
+    transition-timing-function:ease-in-out ; */
+}
+/* 
+.slaca a:hover{
+    border-right: 5px solid linear-gradient( to bottom, #FFB354 16.62%,  #EE7A3A  85.61%);
+}  */
+
+/* .slaca-link:hover{
+    border-right: 5px solid linear-gradient( to bottom, #FFB354 16.62%,  #EE7A3A  85.61%);
+}  */
+
+/* -----------MAIN----------- */
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ED7839;
+
+    position: relative;
+    /* left: 250px; */
+}
+
+/* --------------BUTTONS SECTION-------------- */
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-end ;
+
+    /* position: relative;
+    right: 500; */
+
+}
+
+nav{
+    margin-bottom: 4px;
+}
+
+.outNav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ED7839;
+}
+
+.navLink{
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 18.75px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 7px;
+    background-color:#ED7839;
+    color: #FFFFFF;
+}
+
+.navLink img{
+    width: 19px;
+    height: 19px;
+}
+
+/* --------------SECTION DETAILS-------------- */
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    position: absolute;
+    right: 0;
+    /* left: 816px; */
+    top: 100px;
+
+    border: 2px solid #ECECEC;
+    border-radius: 3px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+
+
+    width: 242px;
+    height: 439px;
+}
+
+.details h2{
+    border-bottom: 2px solid #ECECEC;
+    background-color:#FDF1EB ;
+    width: 12em;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+
+}
+
+/* ---------- SECTION VIDEO OVERLAY---------- */
+
+.videoOverlay{
+    position: absolute;
+    top: 60px;
+
+    Width: 783px;
+    Height: 439px;
+
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.videoOverlay h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 25px;
+    color:#FFFFFF;
+
+    position: absolute;
+    top:10px;
+
+    /* align-self: flex-end; */
+}
+
+.overlaySpanOne{
+    align-self: flex-start;
+    position: absolute;
+
+    left: 120px;
+    bottom: 80px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.overlaySpanTwo{
+    align-self: flex-start;
+    position: absolute;
+
+    left: 120px;
+    bottom: 50px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.videoBackground{
+    position: absolute;
+}
+
+.photo{
+    height: 86px;
+    width: 84px;
+
+    position: absolute;
+    left: 20px;
+    top: 315.33px;
+
+}
+
+/* -----------------SECTION RESUMO----------------- */
+
+.resumo{
+    /* display: flex;
+    flex-direction: column;  */
+    
+    position: absolute;
+    top: 550px;
+}
+
+.resumo h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+
+    border-bottom: 2px solid #ECECEC;
+    background-color:#FDF1EB ;
+    width: 52.8em;
+
+}
+
+.resumo p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21.33px;
+    color: #5C5C5C;
+}
+
+.box{
+    border: 2px solid #ECECEC;
+    border-radius: 3px;
+    width: 1058px;
+    height: 189px;
+}
+
+
+
+
+/* ------------FOOTER------------ */
+
+footer img{
+    width: 100vw;
+    height: 181px;
 }
