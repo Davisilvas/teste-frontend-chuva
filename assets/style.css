@@ -316,6 +316,10 @@ nav{
     height: 86px;
     width: 84px;
 
+    border: 2px solid #ED7839;
+    border-radius: 50%;
+    padding: 5px;
+
     position: absolute;
     left: 20px;
     top: 315.33px;
@@ -343,6 +347,10 @@ nav{
     background-color:#FDF1EB ;
     width: 52.8em;
 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+
 }
 
 .resumo p{
@@ -351,17 +359,250 @@ nav{
     font-size: 14px;
     line-height: 21.33px;
     color: #5C5C5C;
+
+    margin-top: 12px;
+    text-align: justify;
+
 }
 
 .box{
     border: 2px solid #ECECEC;
     border-radius: 3px;
     width: 1058px;
-    height: 189px;
+    height: 165px;
 }
 
 
+/* -----------------SECTION DISCUSSIONS----------------- */
 
+.discussions{
+    position: absolute;
+    top: 750px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.discussions-newTopic h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+
+    border-bottom: 2px solid #ECECEC;
+    background-color:#FDF1EB;
+    width: 52.8em;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+}
+
+.doubts{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+    color:#ED7839;
+
+    position: relative;
+    top: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+                    /* ICONS */
+
+.icons{
+    position: relative;
+    left: 150px;
+    display: flex;
+}
+
+                    /* HAND INCON */
+
+.hand{
+    position: relative;
+    left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image:url(./images/background.png);
+    background-size: cover;
+
+    height: 50px;
+    width: 50px;
+}
+
+.leafs{
+    position: relative;
+    left: 5px;
+    top: 5px;
+
+    width:25.74px;
+    height:15.62px;
+}
+
+.wrist{
+    position: relative;
+    top: 7.5px;
+    left:-9px;
+
+    width:6.9px;
+    height:12.9px;
+}
+
+.handImg{
+    position: relative;
+    top: -3px;
+    left: 7px;
+
+    width:24.8px;
+    height:13.1px;
+}
+
+                /* QUESTION AND ANWSERS ICON */
+
+.QandA{
+    position: relative;
+    left: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image:url(./images/background.png);
+    background-size: cover;
+
+    height: 50px;
+    width: 50px;
+}
+
+.Q{
+    position: relative;
+    left: -10px;
+    top: 12px;
+
+    width: 19.74px;
+    height: 20.75px;
+}
+
+.q{
+    position: relative;
+    top: -3px;
+    left: -9.5px;
+    
+}
+
+.A{
+    position: relative;
+    left: 9.5px;
+    bottom: 6px;
+}
+
+.a{
+    position: relative;
+    top: -20px;
+    left: 8px;
+
+    width: 8px;
+    height: 5px;
+}
+
+                    /* IDEA ICON */
+
+.idea{
+    position: relative;
+    left: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-image:url(./images/background.png);
+    background-size: cover;
+
+    height: 50px;
+    width: 50px;
+}                    
+
+
+.lamp{
+    position: relative;
+    top: -12px;
+    left: 33px;
+}
+
+.base{
+    position: relative;
+    top: -3px;
+    left: 24px;
+}
+.headOne{
+    position: relative;
+    top: 6px;
+    left: 7px;
+}
+
+.bodyOne{
+    position: relative;
+    top: 14px;
+    right:5px;
+}
+
+.headTwo{
+    position: relative;
+    top: 6px;
+    left: 3px;
+}
+
+.bodyTwo{
+    position: relative;
+    top: 14px;
+    right:9px;
+}
+/* -----------REST OF THE DISCUSSIONS SECTION----------- */
+
+.aboveTopic{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.25px;
+    color:#595959;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 18px;
+}
+
+.linha{
+    margin-top:8.px;
+    border: 1px solid #E7E7E7;
+}
+
+.newTopicButton{
+    background: linear-gradient( to bottom, #FFB354 16.62%,  #EE7A3A  85.61%);
+
+    font-family: 'Quicksand' sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:16px;
+    color: #ffffff;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+}
 
 /* ------------FOOTER------------ */
 
