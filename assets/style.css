@@ -23,71 +23,125 @@ body{
 /* ---------HEADER--------- */
 
 header{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-evenly;
+    height: 75px;
     width: 100%;
 
+    display: flex;
+
     background-color:#FDF1EB;
-    padding: 4px;
 
-
+    position: relative;
+    /* left: 220px; */
 }
 
-.texts{
-    display: flex;
-    flex-direction: column;
+header div{
+    position: relative;
+    left:250px;
 }
 
-.texts-one{
-    font-family: 'roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+.spanOne{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400; 
+    font-size:14px;
     line-height: 16.41px;
-
+    color:#725C5C;
 }
 
-.texts-two{
-    font-family: 'roboto', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
+.spanTwo{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400; 
+    font-size:22px;
     line-height: 25.78px;
+    color:#725C5C;
+
+    position: relative;
+    top: 23px;
+    right:397px;
 }
 
-.rightSide{
-    display: flex;
-    flex-direction: row;
+.spanThree{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400; 
+    font-size:16px;
+    line-height: 16.41px;
+    color:#725C5C;
+
+    position: relative;
+    top: 45px;
+    right:1044px;
 }
 
-.rightSide button{
-    border: none;
-    background-color: transparent;
-}
-
-.switch{
-    font-family: 'Quicksand';
+.spanFour{
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17.5px;
+    color:#333333;
 
-    width: 97px;
-    height: 34px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-
-    border: 1px solid #CCCCCC;
-    border-radius: 3px;
+    position: relative;
+    left:1437px;
+    top: -40px;
 }
 
-.greetings{
+.spanFive{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+    color:#333333;
+
+    position: relative;
+    left:1240px;
+    top: -25px;
+}
+
+.spanSix{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: #ffffff;
+
+    position: absolute;
+    left:1540px;
+    bottom:30px;
+}
+
+.redDot{
+    position: relative;
+    left: 1225px;
+    bottom: 45px;
+}
+
+.switch{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 1200px;
+    bottom: 5px;
+
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 4px;
+    width: 97px;
+    height: 34px;
+}
+
+.switch button{
+    border: none;
+    background: transparent;
+}
+
+.perfil{
+    border-radius: 50%;
+
+    position: relative;
+    left: 1240px;
+    bottom: 25px;
 }
 
 
@@ -165,6 +219,8 @@ main h1{
     color: #ED7839;
 
     position: relative;
+    right:-270px;
+    top: 15px;
     /* left: 250px; */
 }
 
@@ -255,8 +311,9 @@ nav{
 /* ---------- SECTION VIDEO OVERLAY---------- */
 
 .videoOverlay{
-    position: absolute;
-    top: 60px;
+    position: relative;
+    left: 270px;
+    top: -20px;
 
     Width: 783px;
     Height: 439px;
@@ -309,7 +366,11 @@ nav{
 }
 
 .videoBackground{
-    position: absolute;
+    width: 880px;
+    height: 439px;
+
+    position: relative;
+    right: -90px;
 }
 
 .photo{
@@ -381,6 +442,8 @@ nav{
 
     display: flex;
     flex-direction: column;
+
+    border: 1px solid #ececec;
 }
 
 .discussions-newTopic h2{
@@ -585,7 +648,9 @@ nav{
 }
 
 .linha{
-    margin-top:8.px;
+    position: relative;
+    top: 30px;
+
     border: 1px solid #E7E7E7;
 }
 
@@ -601,7 +666,37 @@ nav{
     padding: 10px;
 
     border-radius: 5px;
+    border: none;
 
+    position: relative;
+    left: 450px;
+    top: 10px;
+}
+
+/* DIV DISCUSSION TOPICS  */
+
+.discussions-topics h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#ED7839;
+}
+
+.discussions-topics span{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color:#5C5C5C;
+}
+
+.discussions-topics p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+    color:#4d4d4d;
 }
 
 /* ------------FOOTER------------ */
