@@ -31,12 +31,11 @@ header{
     background-color:#FDF1EB;
 
     position: relative;
-    /* left: 220px; */
 }
 
 header div{
     position: relative;
-    left:250px;
+    left:420px;
 }
 
 .spanOne{
@@ -104,8 +103,10 @@ header div{
     color: #ffffff;
 
     position: absolute;
-    left:1540px;
-    bottom:30px;
+    left:1539.5px;
+    bottom:50px;
+
+    z-index: 1;
 }
 
 .redDot{
@@ -121,7 +122,7 @@ header div{
     align-items: center;
 
     position: relative;
-    left: 1200px;
+    left: 950px;
     bottom: 5px;
 
     border: 1px solid #cccccc;
@@ -142,6 +143,12 @@ header div{
     position: relative;
     left: 1240px;
     bottom: 25px;
+}
+
+.perfilBox{
+    position: relative;
+    left: -250px;
+    top: -10px;
 }
 
 
@@ -176,21 +183,34 @@ header div{
     height: 258px;
 }   
 
+.slaca ul{
+    position: relative;
+    /* left: 20px; */
+    top: 15px;
+}
+
 .slaca li{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 18.75px;
 
+    align-self: center;
+
     list-style: none;
 
     height: 33px;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
 }
 
-.slaca a{
-    color: #725C5C;
+.slaca li:nth-of-type(5){
+    border-left: 5px solid #EE7A3A;
+    border-radius: 2px;
+    background-color:#FDF1EB;
+    width: 100%;
+    padding-left: 2px;
 }
+
 /* -----------MAIN----------- */
 
 main{
@@ -207,9 +227,8 @@ main h1{
     color: #ED7839;
 
     position: relative;
-    right:-270px;
+    left:413px;
     top: 15px;
-    /* left: 250px; */
 }
 
 /* --------------BUTTONS SECTION-------------- */
@@ -221,7 +240,7 @@ main h1{
     justify-content:flex-end ;
 
     position: relative;
-    right: 180px;
+    right: 293px;
     top: -30px;
 
 }
@@ -266,7 +285,7 @@ nav{
     align-items: flex-start;
 
     position: absolute;
-    left: 1500px;
+    right:293px;
     top: 85px;
 
     border: 2px solid #ECECEC;
@@ -282,24 +301,47 @@ nav{
     height: 439px;
 }
 
+
 .details h2{
     border-bottom: 2px solid #ECECEC;
     background-color:#FDF1EB ;
     width: 12em;
+    text-align: left;
 
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 45px;
 
-
+    position: relative;
 }
 
+.type{
+    position: relative;
+    top: 15px;
+}
+
+.authors{
+    position: relative;
+    top: 55px;
+}
+
+.university{
+    position: relative;
+    top: 95px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 16.8px;
+    color: #a19696;
+    text-align:left;
+}
 /* ---------- SECTION VIDEO OVERLAY---------- */
 
 .videoOverlay{
     position: relative;
-    left: 270px;
+    left: 420px;
     top: -20px;
 
     Width: 783px;
@@ -357,9 +399,10 @@ nav{
     height: 100%; */
 
     height: 100%;
-    width: 155%;
+    width: 120%;
     position: relative;
-    left: 420px;
+    left: 150px;
+    z-index: 1;
 }
 
 .photo{
@@ -374,13 +417,24 @@ nav{
     left: 20px;
     top: 315.33px;
 
+    z-index: 2;
+}
+
+.videoImg{
+    position: absolute;
+    left: -6px;
+
+    height: 100%;
+    width: 120%;
+
+    z-index: 0;
 }
 
 /* -----------------SECTION RESUMO----------------- */
 
 .resumo{
     position: relative;
-    left: 260px;
+    left: 410px;
 }
 
 .resumo h2{
@@ -424,7 +478,7 @@ nav{
 
 .discussions{
     position: relative;
-    left: 260px;
+    left: 410px;
     top: 30px;
     width: 63.45%;
 
@@ -678,7 +732,7 @@ nav{
 
     box-shadow: 2px 2px 2px 2px #dfdfdf;
     border-radius: 2px;
-    }
+}
 
 .discussions-topics h2{
     font-family: 'Quicksand', sans-serif;
@@ -704,11 +758,52 @@ nav{
     color:#4d4d4d;
 }
 
+.dots{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 3px;
+}
+
+.dots img{
+    height: 4px;
+    width: 4px;
+    margin-bottom: 3px;
+}
+
+.like{
+    position: absolute;
+    left: 25px;
+    bottom: 2px;
+}
+
+.heart{
+    position: relative;
+    bottom: 7px;
+    right: 26px;
+}
+
+.likeAndAnwser{
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+}
+
+.likeAndAnwser span{
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #757575;
+}
+
 /* ------------FOOTER------------ */
 
 footer{
     position: relative;
-    left: 265px;
+    left: 415px;
     top: 50px;
 
     width: 100%;
