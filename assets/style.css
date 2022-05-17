@@ -479,6 +479,12 @@ nav{
     height: 100%;
 }
 
+.off{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+}
+
 
 /* -----------------SECTION DISCUSSIONS----------------- */
 
