@@ -361,8 +361,10 @@ nav{
     color:#FFFFFF;
 
     position: absolute;
-    top:10px;
-
+    top:30px;
+    left: 20px;
+    
+    z-index: 3;
     /* align-self: flex-end; */
 }
 
@@ -378,6 +380,8 @@ nav{
     font-size: 34px;
     line-height: 25px;
     color: #ffffff;
+
+    z-index: 3;
 }
 
 .overlaySpanTwo{
@@ -392,6 +396,8 @@ nav{
     font-size: 20px;
     line-height: 25px;
     color: #ffffff;
+    
+    z-index: 3;
 }
 
 .videoBackground{
