@@ -103,21 +103,21 @@
 
             <section class="resumo"> 
                 
-                <div class="box">
+                <div class="box" onClick="Clique()">
                     <h2>Resumo</h2>
 
                     <p class="off" id="texto">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant...
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant...<span color: #FEB254> Ver mais</span>
                     </p>
-                    <button onClick="Clique()" id="ButtonResumo">Ver mais</button>
-                    <button onClick="Clique()" id="ButtonResumo2">Ver menos</button>
+                    <!-- <button onClick="Clique()" id="ButtonResumo">Ver mais</button>
+                    <button onClick="Clique()" id="ButtonResumo2">Ver menos</button> -->
                 </div>
 
             </section>
 
             <section class="discussions">
-                <div class="discussions-newTopic">
-                    <h2>Discussões</h2>
+                <h2>Discussões</h2>
+                <div class="discussions-newTopic" id="novoTopico">
                     <span class="doubts">Compartilhe suas ideias ou dúvidas com os autores!</span><br>
 
                     <div class="icons">
@@ -147,9 +147,10 @@
                     <span class="aboveTopic">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br> questionamentos ou sugestões para o autor!</span>
 
                     <hr class="linha">
-
-                    <button class="newTopicButton">+ criar tópico</button>
                 </div>
+                <button class="newTopicButton" id="newTopic" onClick="add()">+ criar tópico</button>
+
+
 
                 <div class="discussions-topics">
                     <h2>Assunto da pergunta aparece aqui</h2>

@@ -477,6 +477,7 @@ nav{
     border-radius: 3px;
     width: 63.45%;
     height: 100%;
+    cursor: pointer;
 }
 
 .off{
@@ -484,6 +485,7 @@ nav{
     position: relative;
     left: 2.5%;
 }
+
 
 
 /* -----------------SECTION DISCUSSIONS----------------- */
@@ -503,7 +505,7 @@ nav{
 
 }
 
-.discussions-newTopic h2{
+.discussions h2{
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -517,6 +519,11 @@ nav{
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 1px;
+}
+
+.changing{
+    /* position: relative; */
+    opacity: 0;
 }
 
 .doubts{
@@ -536,7 +543,7 @@ nav{
                     /* ICONS */
 
 .icons{
-    position: relative;
+    position:relative;
     left: 150px;
     display: flex;
 }
@@ -719,6 +726,7 @@ nav{
     font-size: 15px;
     line-height:16px;
     color: #ffffff;
+    width: 7vw;
 
     padding: 10px;
 
@@ -728,6 +736,8 @@ nav{
     position: relative;
     left: 550px;
     top: 10px;
+
+    cursor: pointer;
 }
 
 /* DIV DISCUSSION TOPICS  */
