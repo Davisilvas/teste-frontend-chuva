@@ -731,7 +731,7 @@ nav{
     padding: 10px;
 
     border-radius: 5px;
-    border: none;
+    border: 2px solid #c4c4c4;
 
     position: relative;
     left: 550px;
@@ -739,6 +739,43 @@ nav{
 
     cursor: pointer;
 }
+
+/* estilo das mudanças do button */
+
+ .discussions-newTopic .insideButton{
+    position: relative;
+    height: 60%;
+
+    background-color: #ffffff;
+ }
+
+ .discussions-newTopic .insideButton .t1{
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #ed7839;
+    background: none;
+    border: none;
+
+    position: relative;
+    right: 44%;
+ }
+
+ .discussions-newTopic .insideButton .t2{
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #ed7839;
+    background: none;
+    border: none;
+
+    position: relative;
+    right: 44%;
+ }
 
 /* DIV DISCUSSION TOPICS  */
 
